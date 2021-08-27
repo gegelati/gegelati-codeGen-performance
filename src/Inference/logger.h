@@ -27,7 +27,7 @@ public:
      */
     Logger(std::ostream& out = std::cout, std::string separator = "\t") : out(&out), separator(std::move(separator)){
 
-        *(this->out) << "method used" << separator << "means" << separator << " data " << std::endl;
+        *(this->out) << "method used " << separator << "means " << separator << "data " << std::endl;
     }
 
     /**

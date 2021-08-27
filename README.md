@@ -3,7 +3,7 @@ This Repository stores scripts and sources file to compare the inference between
 
 To compile the target you need to install [gegelati](https://github.com/gegelati/gegelati) with the code gen activated
 If you want to install gegelati on a different location use this [link](https://codimd.math.cnrs.fr/EvaYqdItQeW-9hVh1LtcVA?view#)
-use the following commands 
+use the following commands to compile the comparison test : 
 
 ```shell
 git clone https://github.com/gegelati/gegelati-codeGen-performance.git
@@ -18,5 +18,5 @@ If no filename are given, results are printed on the standard output.
 The following command start the measures.
 
 ```shell
-./Release/InferenceCompare [filename_to_store_result]
+./Release/InferenceCompare [filename_storing_results]
 ```
